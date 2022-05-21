@@ -1,0 +1,36 @@
+{
+    "alias": "googletranslate",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Googletranslate\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "global_fields":[],
+    "vendor_fields":[
+        {
+            "separator":"Google translate",
+            "title": "Show Google translate",
+            "key": "gt_enable",
+            "ftype": "bool",
+            "value": false
+        },
+        {
+            "title": "Show all languages",
+            "key": "gt_all",
+            "ftype": "bool",
+            "value": true
+        },
+        {
+            "title": "List of language codes to show",
+            "key": "gt_list",
+            "ftype": "input",
+            "value": "",
+            "placeholder": "Example: en,it,fr"
+        }
+    ]
+}

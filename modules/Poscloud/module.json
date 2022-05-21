@@ -1,0 +1,21 @@
+{
+    "alias": "poscloud",
+    "version":"1.6",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Poscloud\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "ownermenus":[
+        {
+            "name":"POS",
+            "route":"poscloud.index",
+            "icon":"ni ni-tv-2 text-primary"
+        }
+    ]
+}

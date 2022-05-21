@@ -1,0 +1,24 @@
+{
+    "alias": "themeswitcher",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Themeswitcher\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "vendor_fields":[{
+        "separator":"Theme Switcher",
+        "title":"Select your menu template", 
+        "key":"menu_template", 
+        "value":"defaulttemplate",
+        "ftype":"select",
+        "data":{
+            "defaulttemplate":"Default template",
+            "elegant-template":"Elegant template"
+        }
+    }]
+}

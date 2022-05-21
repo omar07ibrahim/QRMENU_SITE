@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont {
+  position: relative;
+  height: 700px;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: -257px;
+  height: 100%;
+  width: auto;
+}
+
+.dots {
+  left: -254px;
+  height: 99%;
+}
+
+.dots circle {
+  transition: fill 0.3s ease-in-out;
+}
+
+.dots circle.active {
+  fill: #d55;
+}
+
+.dots circle:hover {
+  cursor: pointer;
+  fill: #6af;
+}
