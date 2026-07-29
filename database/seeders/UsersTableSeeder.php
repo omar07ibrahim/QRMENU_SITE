@@ -67,7 +67,7 @@ class UsersTableSeeder extends Seeder
             'created_at' => now(),
             'updated_at' => now(),
             'delivery'=> 0,
-            'maps_api_key' => 'AIzaSyCZhq0g1x1ttXPa1QB3ylcDQPTAzp_KUgA',
+            'maps_api_key' => config('geocoder.key', ''),
             'mobile_info_title' => 'Download the food you love',
             'mobile_info_subtitle' => 'It`s all at your fingertips - the restaurants you love. Find the right food to suit your mood, and make the first bite last. Go ahead, download us.',
         ]);
